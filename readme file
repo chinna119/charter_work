@@ -1,0 +1,22 @@
+# Reward Points API
+
+This Spring Boot application calculates reward points for customers based on their purchases.
+
+## Features
+- Reward calculation per transaction
+- REST API with GET /api/rewards
+- Monthly and total reward breakdowns
+- Unit and integration test coverage
+- Exception handling
+
+## How to Run
+1. Build the project: `mvn clean install`
+2. Run the app: `mvn spring-boot:run`
+3. Test API: Use Postman or curl
+
+## Technologies Used
+- Java 21, Spring Boot,
+- Maven, JUnit 5, MockMvc
+
+## Database
+- h2
